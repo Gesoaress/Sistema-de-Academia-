@@ -112,6 +112,9 @@ Digite o número da opção desejada e pressione Enter. O sistema solicitará as
 ## Autores
 
 *   Geovane Soares Da Silva
+*   Richard Ferreira do Nascimento Santos
+*   Ryan Isaac Vieira Barbosa
+*   Vinicius Domingos de Souza
 
 ---
 
