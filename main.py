@@ -294,11 +294,6 @@ def apagar_aluno():
         confirmacao = input(f"Tem certeza que deseja apagar o aluno '{aluno.nome}' (ID: {aluno.id})? \nIsso também removerá todas as suas matrículas. (s/n): ").lower()
 
         if confirmacao == 's':
-            # SQLAlchemy deve cuidar da exclusão em cascata das matrículas se configurado corretamente
-            # (cascade="all, delete-orphan" na relação Aluno.matriculas)
-            # Vamos verificar se a cascata está configurada em aluno.py
-            # Se não estiver, precisaríamos apagar as matrículas manualmente primeiro:
-            # session.query(Matricula).filter_by(aluno_id=aluno.id).delete()
             session.delete(aluno)
             session.commit()
             print(f"Aluno '{aluno.nome}' apagado com sucesso.")
