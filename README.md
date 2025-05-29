@@ -117,4 +117,6 @@ Digite o número da opção desejada e pressione Enter. O sistema solicitará as
 *   Vinicius Domingos de Souza
 
 ---
+![image](https://github.com/user-attachments/assets/1fce1378-0b24-4b0d-9415-53c29ce563fe)
+
 
